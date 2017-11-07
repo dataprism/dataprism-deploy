@@ -6,7 +6,7 @@ services:
       - "2181:2181"
 
   kafka:
-    image: wurstmeister/kafka-docker:latest
+    image: wurstmeister/kafka:latest
     ports:
       - target: 9094
         published: 9094
